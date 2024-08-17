@@ -30,9 +30,8 @@ const Hero = () => {
 
                     <TypeAnimation
                     sequence={[
-                        // Same substring at the start will only be typed out once, initially
                         'Enes Eren',
-                        1000, // wait 1s before replacing "Mice" with "Hamsters"
+                        1000, // "Enes Eren" sonrası bekleme süresi
                         'Bilgisayar Mühendisi',
                         1000,
                         'Frontend Developer',
@@ -45,16 +44,9 @@ const Hero = () => {
                     repeat={Infinity}
                     />
 
-
-
                 </h1>
                 <p className='text-mycolor-100 text-base mb-6 lg:text-lg'>
-
-                Nevşehir Hacı Bektaş Veli Üniversitesi Bilgisayar Mühendisliği bölümünden 2024 yılında mezun
-oldum. Full-Stack Developer olarak kendimi geliştirmeye odaklandım ve bu süreçte HTML, CSS,
-JavaScript, React, Node.js,Next.js Python , .NET ve SQL gibi teknolojilerde deneyim kazandım.
-
-
+                Nevşehir Hacı Bektaş Veli Üniversitesi Bilgisayar Mühendisliği bölümünden 2024 yılında mezun oldum. Full-Stack Developer olarak kendimi geliştirmeye odaklandım ve bu süreçte HTML, CSS, JavaScript, React, Node.js, Next.js, Python, .NET ve SQL gibi teknolojilerde deneyim kazandım.
                 </p>
 
                 <div>
@@ -62,37 +54,19 @@ JavaScript, React, Node.js,Next.js Python , .NET ve SQL gibi teknolojilerde dene
                     className='px-6 inline-block py-3 w-full md:w-fit rounded-full bg-gradient-to-br
                     from-mycolor-200 to-mycolor-100 text-white text-center mr-4'
                     >
-
                         İletişim
-      
-                    
                     </Link>
 
-                    <Link href="/"
-                    className='px-1 inline-block 
-                    py-1 w-full md:w-fit rounded-full
-                     bg-gradient-to-br
-                    from-mycolor-200 to-mycolor-100
-                     text-mycolor-700 text-center mt-3'>
-                      
-                      
-                      <span className=' block bg-mycolor-300 rounded-full
-                      px-5 py-2'>Download CV</span>  
-
-                    
-                    
+                    <Link href="/cv.pdf"
+                    className='px-1 inline-block py-1 w-full md:w-fit rounded-full bg-gradient-to-br
+                    from-mycolor-200 to-mycolor-100 text-mycolor-700 text-center mt-3'
+                    >
+                      <span className='block bg-mycolor-300 rounded-full px-5 py-2'> Cv İndir</span>  
                     </Link>
-
-
-
                 </div>
-
 
             </motion.div>
          
-
-
-
             {/*col-span 4 */}
 
             <motion.div
@@ -118,14 +92,9 @@ JavaScript, React, Node.js,Next.js Python , .NET ve SQL gibi teknolojilerde dene
                     -translate-x-1/2  -translate-y-1/2 top-1/2 left-1/2 rounded-full
                     w-[220px] h-[220px]  lg:w-[370px] lg:h-[370px]
                     '
-                 
-                    
                     />
 
-
-
                 </div>
-
 
             </motion.div>
 
